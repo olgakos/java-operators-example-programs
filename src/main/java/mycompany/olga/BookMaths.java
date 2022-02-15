@@ -4,6 +4,11 @@ public class BookMaths {
 
 //главный метод
     public static void main(String[] args) {
+
+        Cinema cinema = new Cinema();
+        cinema.toWishList();
+        System.out.println("Фильм: " + cinema.title2 + "\nАктер: " + cinema.actor2);
+
         String text = "Book";
         System.out.println("Hello:\n " + text);
 
